@@ -1,0 +1,22 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block styles %}
+    {{ super() }}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+{% endblock %}
+
+
+{% block title %}Discover Cafes: Power & Connectivity{% endblock %}
+
+
+{% block content %}
+<div class="jumbotron text-center">
+    <div class="container">
+        <h1 class="display-4">Discover Cafes: Power & Connectivity</h1>
+        <p class="lead">Elevate your work experience in cafes with the perfect blend of power and connectivity.</p>
+        <hr class="my-4">
+        <p>Embark on a journey of productivity and inspiration as you explore our curated selection of cafes, meticulously chosen for their abundance of power outlets, lightning-fast wifi, and exceptional coffee.</p>
+        <a class="btn btn-warning btn-lg" href="{{ url_for('cafes') }}" role="button">Start Exploring</a>
+    </div>
+</div>
+{% endblock %}
