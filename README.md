@@ -30,12 +30,4 @@ Building this application provided an opportunity to:
 * **Implement basic CRUD operations (Create, Read, Update, Delete):** While not fully implemented here (only Create is included), the foundation is laid for future enhancements.
 * **Leverage Bootstrap for styling:** Rapidly style the application using Bootstrap components and classes.
 
-### Next Steps
 
-Will implement the following and upgrading the project in upcoming time:
-
-* **Implement full CRUD operations:** Allow users to edit or delete existing cafe entries.
-* **Search functionality:** Enable users to search for cafes based on location keywords, wifi rating, etc.
-* **User accounts and authentication:** Create a user system to personalize experiences and allow for potentially adding favorite cafes.
-* **Deployment:** Deploy the application to a production server to make it publicly accessible.
-   
